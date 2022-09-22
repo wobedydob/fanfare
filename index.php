@@ -2,4 +2,5 @@
 
 require_once 'includes.php';
 
-// hello world.
+$page = new \Controller\PageController();
+$page->locateTemplate();
